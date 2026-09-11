@@ -535,5 +535,6 @@ footer {
 .hero {
   background:
     linear-gradient(90deg, rgba(6,18,41,.96) 0%, rgba(6,18,41,.78) 45%, rgba(6,18,41,.45) 100%),
-    url("assets/fatu_h.jpg") center/cover no-repeat;
+    url("assets/fatu_h.jpg") center/contain no-repeat;
+  background-color: var(--bg);
 }
