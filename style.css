@@ -36,13 +36,13 @@ a {
 }
 
 .hero {
-  min-height:720px;
-  position:relative;
-  overflow:hidden;
+  position: relative;
+  min-height: 720px;
+  overflow: hidden;
   background:
-    radial-gradient(circle at 80% 20%,rgba(61,139,255,.22),transparent 35%),
-    radial-gradient(circle at 10% 90%,rgba(23,97,207,.18),transparent 35%),
-    var(--bg);
+    linear-gradient(90deg, rgba(6,18,41,.96) 0%, rgba(6,18,41,.78) 45%, rgba(6,18,41,.45) 100%),
+    url("assets/fatu_h.jpg") center top / 100% auto no-repeat;
+  background-color: var(--bg);
 }
 
 .navbar {
@@ -64,14 +64,21 @@ a {
 }
 
 .brand-mark {
-  width:44px;
-  height:44px;
-  border-radius:13px;
-  display:grid;
-  place-items:center;
-  color:#fff;
-  background:linear-gradient(145deg,#4a9aff,#1761cf);
-  box-shadow:0 10px 35px rgba(61,139,255,.28);
+  width: 44px;
+  height: 44px;
+  border-radius: 13px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: linear-gradient(145deg, #4a9aff, #1761cf);
+  box-shadow: 0 10px 35px rgba(61,139,255,.28);
+}
+
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .nav-links {
