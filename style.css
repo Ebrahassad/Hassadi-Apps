@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Cairo:wght@400;500;600;700;800;900&display=swap');
 
 :root {
-  --bg:#060c1c;
-  --bg2:#0a1226;
-  --bg-soft:#0d1730;
-  --card:#0e1830;
-  --card2:#12203f;
+  --bg:#0b1730;
+  --bg2:#132a4a;
+  --bg-soft:#152847;
+  --card:#152a4d;
+  --card2:#1b3358;
   --text:#f4f7ff;
-  --muted:#93a1c2;
-  --muted-soft:#6c7ba0;
+  --muted:#a8b6d6;
+  --muted-soft:#8290b3;
   --accent:#2fb6ff;
   --accent2:#5ee7d9;
   --accent-deep:#3d6bff;
   --pink:#ff6fa8;
   --gold:#ffc85e;
-  --border:rgba(255,255,255,.08);
-  --border-soft:rgba(255,255,255,.05);
+  --border:rgba(255,255,255,.13);
+  --border-soft:rgba(255,255,255,.08);
   --shadow-glow: 0 25px 70px -20px rgba(47,182,255,.35);
 }
 
@@ -31,8 +31,8 @@ html {
 
 body {
   background:
-    radial-gradient(900px 500px at 12% -5%, rgba(47,182,255,.10), transparent 60%),
-    radial-gradient(800px 500px at 100% 10%, rgba(94,231,217,.07), transparent 55%),
+    radial-gradient(900px 500px at 12% -5%, rgba(47,182,255,.16), transparent 60%),
+    radial-gradient(800px 500px at 100% 10%, rgba(94,231,217,.12), transparent 55%),
     var(--bg);
   color:var(--text);
   font-family:Inter,Cairo,sans-serif;
@@ -159,7 +159,7 @@ img {
   border-radius:26px;
   overflow:hidden;
   border:1px solid rgba(94,231,217,.16);
-  background:#040a18;
+  background:#0a1630;
   box-shadow:
     0 40px 90px -30px rgba(0,0,0,.6),
     0 0 0 1px rgba(255,255,255,.02) inset;
@@ -450,7 +450,7 @@ main {
   display: grid;
   place-items: center;
   overflow: hidden;
-  background: radial-gradient(circle at 30% 20%, #16264a, #070d1c 75%);
+  background: radial-gradient(circle at 30% 20%, #1e335e, #101f3d 75%);
   border: 1px solid var(--border);
   padding:10px;
 }
@@ -522,7 +522,7 @@ main {
   border:1px solid var(--border);
   border-radius:28px;
   background:
-    radial-gradient(650px 260px at 85% 0%, rgba(47,182,255,.10), transparent 60%),
+    radial-gradient(650px 260px at 85% 0%, rgba(47,182,255,.16), transparent 60%),
     var(--bg2);
   overflow:hidden;
 }
@@ -571,7 +571,7 @@ main {
 footer {
   border-top:1px solid var(--border);
   padding:50px max(30px,calc((100% - 1180px)/2));
-  background:#03070f;
+  background:#0a1226;
 }
 
 .footer-top,
