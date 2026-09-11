@@ -3,307 +3,168 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#07152f">
-  <meta name="description" content="Hassadi — Apps, games and digital experiences.">
-  <title>Hassadi — Apps & Games</title>
+  <meta name="description" content="Hassadi Apps — Apps and games by Hassadi.">
+  <title>Hassadi Apps</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header class="hero">
-
   <nav class="navbar">
-
     <a class="brand" href="#">
-      <div class="brand-mark"><img src="assets/icon_h.png" alt="Hassadi"></div>
+      <span class="brand-mark">H</span>
       <span>Hassadi</span>
     </a>
 
     <div class="nav-links">
-      <a href="#apps" data-en="Apps" data-ar="التطبيقات">Apps</a>
-      <a href="#games" data-en="Games" data-ar="الألعاب">Games</a>
-      <a href="#about" data-en="About" data-ar="من نحن">About</a>
+      <a href="#apps">Apps</a>
+      <a href="#about">About</a>
     </div>
 
-    <button id="languageBtn" class="language-btn">
-      العربية
-    </button>
-
+    <button class="language-btn" type="button" onclick="toggleLanguage()">العربية</button>
   </nav>
 
-
   <div class="hero-content">
-
-    <div class="hero-badge"
-         data-en="INDEPENDENT DEVELOPER"
-         data-ar="مطور مستقل">
+    <div class="hero-badge" data-en="INDEPENDENT DEVELOPER" data-ar="مطور مستقل">
       INDEPENDENT DEVELOPER
     </div>
 
     <h1>
-      <span data-en="Create." data-ar="نبتكر.">Create.</span><br>
-      <span data-en="Build. Inspire." data-ar="نبني. نُلهم.">
-        Build. Inspire.
-      </span>
+      <span data-en="Built with" data-ar="صُنعت">Built with</span><br>
+      <span data-en="purpose." data-ar="بهدف.">purpose.</span>
     </h1>
 
-    <p
-      data-en="Discover applications, games, and digital experiences created by Hassadi."
-      data-ar="اكتشف التطبيقات والألعاب والتجارب الرقمية التي تطورها Hassadi.">
-      Discover applications, games, and digital experiences
-      created by Hassadi.
+    <p data-en="A collection of apps and games created by Hassadi, designed to be simple, useful and enjoyable."
+       data-ar="مجموعة من التطبيقات والألعاب التي طورها حسادي، بتصميم بسيط ومفيد وممتع.">
+      A collection of apps and games created by Hassadi, designed to be simple, useful and enjoyable.
     </p>
 
-    <a href="#apps" class="hero-button">
-      <span data-en="Explore Projects" data-ar="استكشف المشاريع">
-        Explore Projects
-      </span>
+    <a class="hero-button" href="#apps">
+      <span data-en="Explore projects" data-ar="استكشف المشاريع">Explore projects</span>
       <span>→</span>
     </a>
-
   </div>
-
-  <div class="hero-glow glow-one"></div>
-  <div class="hero-glow glow-two"></div>
-
 </header>
-
 
 <main>
 
-
-<section id="apps" class="section">
-
+<section class="section" id="apps">
   <div class="section-header">
-
     <div>
       <span class="section-number">01</span>
-      <span class="section-label"
-            data-en="APPLICATIONS"
-            data-ar="التطبيقات">
-        APPLICATIONS
-      </span>
+      <span class="section-label" data-en="PROJECTS" data-ar="المشاريع">PROJECTS</span>
     </div>
-
-    <h2 data-en="Apps" data-ar="التطبيقات">
-      Apps
-    </h2>
-
+    <h2 data-en="Selected work" data-ar="أعمال مختارة">Selected work</h2>
   </div>
-
 
   <div class="projects-grid">
 
-    <article class="project-card">
-
+    <a class="project-card" href="https://ebrahassad.github.io/watermark-pro-page/index.html" target="_blank" rel="noopener">
       <div class="project-icon">
         <img src="assets/apps/watermark-pro.png" alt="Watermark Pro">
       </div>
-
       <div class="project-content">
-
-        <span class="project-type"
-              data-en="PHOTO & VIDEO"
-              data-ar="صور وفيديو">
-          PHOTO & VIDEO
-        </span>
-
+        <span class="project-type" data-en="APP" data-ar="تطبيق">APP</span>
         <h3>Watermark Pro</h3>
-
-        <p
-          data-en="Protect your photos by adding your own watermark or logo with ease."
-          data-ar="احمِ صورك بإضافة علامتك المائية أو شعارك بسهولة.">
-          Protect your photos by adding your own watermark
-          or logo with ease.
+        <p data-en="Add watermarks, logos and text to your images with a simple and powerful workflow."
+           data-ar="أضف العلامات المائية والشعارات والنصوص إلى صورك بطريقة سهلة وقوية.">
+          Add watermarks, logos and text to your images with a simple and powerful workflow.
         </p>
-
-        <a href="apps/watermark-pro/" class="project-link">
-          <span data-en="View application"
-                data-ar="عرض التطبيق">
-            View application
-          </span>
-          <span>→</span>
-        </a>
-
+        <span class="project-link">
+          <span data-en="Open project" data-ar="فتح المشروع">Open project</span>
+          <b>→</b>
+        </span>
       </div>
+    </a>
 
-    </article>
-
-  </div>
-
-</section>
-
-
-
-<section id="games" class="section">
-
-  <div class="section-header">
-
-    <div>
-      <span class="section-number">02</span>
-      <span class="section-label"
-            data-en="GAMES"
-            data-ar="الألعاب">
-        GAMES
-      </span>
-    </div>
-
-    <h2 data-en="Games" data-ar="الألعاب">
-      Games
-    </h2>
-
-  </div>
-
-
-  <div class="projects-grid">
-
-    <article class="project-card">
-
+    <a class="project-card" href="https://ebrahassad.github.io/puzzle-world-privacy/" target="_blank" rel="noopener">
       <div class="project-icon">
         <img src="assets/games/puzzle-world.png" alt="Puzzle World">
       </div>
-
       <div class="project-content">
-
-        <span class="project-type"
-              data-en="PUZZLE GAME"
-              data-ar="لعبة ألغاز">
-          PUZZLE GAME
-        </span>
-
+        <span class="project-type" data-en="GAME" data-ar="لعبة">GAME</span>
         <h3>Puzzle World</h3>
-
-        <p
-          data-en="A colorful puzzle adventure designed to bring fun and creativity to every level."
-          data-ar="مغامرة ألغاز ملونة تجمع بين المتعة والإبداع في كل مستوى.">
-          A colorful puzzle adventure designed to bring
-          fun and creativity to every level.
+        <p data-en="Explore colorful worlds, collect rewards and progress through a relaxing puzzle adventure."
+           data-ar="استكشف عوالم ملونة، اجمع المكافآت وتقدم في مغامرة ألغاز ممتعة.">
+          Explore colorful worlds, collect rewards and progress through a relaxing puzzle adventure.
         </p>
-
-        <a href="games/puzzle-world/" class="project-link">
-          <span data-en="View game"
-                data-ar="عرض اللعبة">
-            View game
-          </span>
-          <span>→</span>
-        </a>
-
+        <span class="project-link">
+          <span data-en="Open project" data-ar="فتح المشروع">Open project</span>
+          <b>→</b>
+        </span>
       </div>
+    </a>
 
-    </article>
-
-  </div>
-
-</section>
-
-
-
-<section id="about" class="about-section">
-
-  <div class="about-mark"><img src="assets/icon_h.png" alt="Hassadi"></div>
-
-  <div class="about-content">
-
-    <span class="section-label"
-          data-en="ABOUT HASSADI"
-          data-ar="عن HASSADI">
-      ABOUT HASSADI
-    </span>
-
-    <h2
-      data-en="Building useful, creative experiences."
-      data-ar="نبني تجارب مفيدة ومبتكرة.">
-      Building useful,<br>
-      creative experiences.
-    </h2>
-
-    <p
-      data-en="Hassadi is an independent software development brand focused on creating useful applications, creative games, and engaging digital experiences."
-      data-ar="Hassadi هي علامة مستقلة لتطوير البرمجيات، تركز على إنشاء تطبيقات مفيدة وألعاب إبداعية وتجارب رقمية مميزة.">
-      Hassadi is an independent software development brand
-      focused on creating useful applications, creative games,
-      and engaging digital experiences.
-    </p>
-
-  </div>
-
-</section>
-
-
-</main>
-
-
-<footer>
-
-  <div class="footer-top">
-
-    <div class="footer-brand">
-
-      <div class="brand-mark"><img src="assets/icon_h.png" alt="Hassadi"></div>
-
-      <strong>Hassadi</strong>
-
-    </div>
-
-    <p
-      data-en="Create. Build. Inspire."
-      data-ar="نبتكر. نبني. نُلهم.">
-      Create. Build. Inspire.
-    </p>
-
-  </div>
-
-
-  <div class="footer-bottom">
-
-    <span>
-      © 2026 Hassadi.
-      <span data-en="All rights reserved."
-            data-ar="جميع الحقوق محفوظة.">
-        All rights reserved.
-      </span>
-    </span>
-
-    <a href="mailto:ebrahassadi77@gmail.com">
-      ebrahassadi77@gmail.com
+    <a class="project-card" href="https://ebrahassad.github.io/-Neon-Breaker-Pro./" target="_blank" rel="noopener">
+      <div class="project-icon">
+        <img src="assets/games/neon-breaker-pro.png" alt="Neon Breaker Pro">
+      </div>
+      <div class="project-content">
+        <span class="project-type" data-en="GAME" data-ar="لعبة">GAME</span>
+        <h3>Neon Breaker Pro</h3>
+        <p data-en="A neon brick-breaker experience featuring power stages, fire balls, multiple paddles and explosive gameplay."
+           data-ar="لعبة تكسير طوب نيون تحتوي على مراحل قوة وكرات نارية ومضارب متعددة وأجواء مليئة بالإثارة.">
+          A neon brick-breaker experience featuring power stages, fire balls, multiple paddles and explosive gameplay.
+        </p>
+        <span class="project-link">
+          <span data-en="Open project" data-ar="فتح المشروع">Open project</span>
+          <b>→</b>
+        </span>
+      </div>
     </a>
 
   </div>
+</section>
 
+<section class="about-section" id="about">
+  <div class="about-mark">H</div>
+  <div class="about-content">
+    <span class="section-label" data-en="ABOUT HASSADI" data-ar="عن حسادي">ABOUT HASSADI</span>
+    <h2 data-en="Ideas made into apps and games."
+        data-ar="أفكار تتحول إلى تطبيقات وألعاب.">
+      Ideas made into apps and games.
+    </h2>
+    <p data-en="Hassadi is an independent developer focused on creating practical apps and enjoyable games with a clean and modern experience."
+       data-ar="حسادي مطور مستقل يركز على إنشاء تطبيقات عملية وألعاب ممتعة بتجربة عصرية ونظيفة.">
+      Hassadi is an independent developer focused on creating practical apps and enjoyable games with a clean and modern experience.
+    </p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="brand-mark">H</span>
+      <strong>Hassadi Apps</strong>
+    </div>
+    <p data-en="Apps • Games • Ideas" data-ar="تطبيقات • ألعاب • أفكار">Apps • Games • Ideas</p>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 Hassadi</span>
+    <a href="#apps">Projects</a>
+  </div>
 </footer>
 
-
 <script>
+let arabic = false;
 
-const languageBtn = document.getElementById("languageBtn");
+function toggleLanguage() {
+  arabic = !arabic;
 
-let currentLanguage = "en";
+  document.documentElement.lang = arabic ? "ar" : "en";
+  document.documentElement.dir = arabic ? "rtl" : "ltr";
 
-function updateLanguage() {
-
-  document.documentElement.lang = currentLanguage;
-  document.documentElement.dir =
-    currentLanguage === "ar" ? "rtl" : "ltr";
-
-  document.querySelectorAll("[data-en]").forEach(element => {
-    element.textContent =
-      element.getAttribute(`data-${currentLanguage}`);
+  document.querySelectorAll("[data-en]").forEach(el => {
+    el.textContent = arabic ? el.dataset.ar : el.dataset.en;
   });
 
-  languageBtn.textContent =
-    currentLanguage === "en" ? "العربية" : "English";
+  document.querySelector(".language-btn").textContent =
+    arabic ? "English" : "العربية";
 }
-
-languageBtn.addEventListener("click", () => {
-
-  currentLanguage =
-    currentLanguage === "en" ? "ar" : "en";
-
-  updateLanguage();
-
-});
-
 </script>
 
 </body>
