@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ebrahassad.github.io/Hassadi-Apps/sitemap.xml
